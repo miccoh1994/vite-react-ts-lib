@@ -12,7 +12,7 @@
     "lint": "eslint lib --ext ts,tsx",
     "lint:fix": "yarn lint --fix",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
-    "ci": "yarn lint && yarn type-check",
+    "ci": "yarn lint && yarn type-check && yarn vitest run",
     "prepare": "husky install"
   },
   "peerDependencies": {
