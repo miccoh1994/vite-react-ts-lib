@@ -1,0 +1,13 @@
+// Vitest Snapshot v1
+
+exports[`MyEpicLibraryComponent renders succesfully 1`] = `
+<div>
+  Epic
+</div>
+`;
+
+exports[`MyEpicLibraryComponent renders succesfully 2`] = `
+<div>
+  Epic
+</div>
+`;
