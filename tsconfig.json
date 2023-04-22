@@ -20,6 +20,6 @@
     },
     "types": ["vitest/globals"]
   },
-  "include": ["example", "lib", "test"],
+  "include": ["src", "lib", "test"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

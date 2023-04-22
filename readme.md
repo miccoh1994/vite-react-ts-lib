@@ -14,6 +14,6 @@
     cd my-awesome-lib-name
     code .
     yarn
-    yarn dev #runs the example
+    yarn dev #runs the src
     yarn test #runs the tests
 ```
