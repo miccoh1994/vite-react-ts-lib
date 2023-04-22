@@ -13,7 +13,7 @@
     npx degit miccoh1994/vite-react-ts-lib my-awesome-lib-name
     cd my-awesome-lib-name
     code .
-    yarn
-    yarn dev #runs the src
-    yarn test #runs the tests
+    pnpm
+    pnpm dev #runs the src
+    pnpm test #runs the tests
 ```
