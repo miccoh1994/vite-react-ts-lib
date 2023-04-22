@@ -1,7 +1,7 @@
 {
   "name": "@mynamespace/myepiclib",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,9 +10,9 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "lint": "pnpm type-check && eslint lib --ext ts,tsx",
-    "lint:fix": "yarn lint --fix",
+    "lint:fix": "pnpm lint --fix",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
-    "ci": "yarn lint && yarn vitest run",
+    "ci": "pnpm lint && pnpm vitest run",
     "prepare": "husky install"
   },
   "peerDependencies": {
